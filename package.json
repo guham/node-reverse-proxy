@@ -1,0 +1,20 @@
+{
+  "name": "node-reverse-proxy",
+  "version": "1.0.0",
+  "description": "Node reverse proxy",
+  "main": "src/server.js",
+  "repository": "git@github.com:guham/node-reverse-proxy.git",
+  "author": "Guillaume Hamoniez <guham.dev@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --config nodemon.json ./src/server.js",
+    "lint": "eslint --fix 'src/**'"
+  },
+  "dependencies": {
+    "http-proxy": "^1.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "nodemon": "^2.0.3"
+  }
+}
