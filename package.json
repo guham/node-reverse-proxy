@@ -11,7 +11,7 @@
     "lint": "eslint --fix 'src/**'"
   },
   "dependencies": {
-    "http-proxy": "^1.18.0"
+    "http-proxy": "^1.18.1"
   },
   "devDependencies": {
     "eslint": "^7.0.0",
